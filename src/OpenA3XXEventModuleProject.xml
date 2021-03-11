@@ -1,0 +1,8 @@
+<Project Version="2" Name="OpenA3XXEventModuleProject" FolderName="Packages">
+	<OutputDirectory>.</OutputDirectory>
+	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
+	<Packages>
+		<Package>PackageDefinitions\opena3xx-event-module.xml</Package>
+	</Packages>
+</Project>
+

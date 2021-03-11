@@ -1,0 +1,31 @@
+<AssetPackage Name="opena3xx-event-module" Version="0.2.50">
+	<ItemSettings>
+		<ContentType>MISC</ContentType>
+		<Title>OpenA3XX Event Module</Title>
+		<Manufacturer/>
+		<Creator>OpenA3XX</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>true</VisibleInStore>
+		<CanBeReferenced>true</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\opena3xx-event-module\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\opena3xx-event-module\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="OpenA3XX_Event_Module">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\modules\</AssetDir>
+			<OutputDir>modules\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
